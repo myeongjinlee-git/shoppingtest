@@ -1,0 +1,16 @@
+# 앱 데이터 파일
+shopping_list.json
+*.tmp
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Playwright 스크린샷/스냅샷
+.playwright-mcp/
+
+# 손상/보정 시 자동 생성되는 원본 백업
+*.corrupt-*.json
+*.backup-*.json
